@@ -1,0 +1,61 @@
+h1, h2 {
+  width: 500px;
+  margin: auto;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 75px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+ul, li {
+  border: 5px solid black;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+}
+
+li {
+  width: 100px;
+  height: 100px;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: gray;
+}
+.unclicked:hover {
+  background-color: yellow;
+}
+
+.click {
+  background-color: white;
+  font-size: 100px;
+  vertical-align: middle;
+  line-height: 75px;
+  font-family: sans-serif;
+}
+
+.winner {
+  color: white;
+  background-color: green;
+}
+
+.loser {
+  color: red;
+}
+
+.unclicked-over {
+  background-color: white;
+}
+
